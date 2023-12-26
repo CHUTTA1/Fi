@@ -434,9 +434,12 @@ def setting():
 			id2.insert(xx,bacot)
     #print(logo)
 	print('\x1b[1;92m METHOD 1\n\x1b[1;97m [1] METHOD 1 ')
-	os.system('espeak -a 300 " 1,  method,  one"')
+	print('\x1b[1;92m METHOD 2\n\x1b[1;97m [2] METHOD 2 ')
+	print('\x1b[1;92m METHOD 3\n\x1b[1;97m [3] METHOD 3 ')
+	print('\x1b[1;92m METHOD 4\n\x1b[1;97m [4] METHOD 4 ')
+	os.system('espeak -a 300 " 1,  method,  one ,two ,tree , four "')
 	hc = input(' CHOOSE: ')
-	if hc in ['1','01']:
+	if hc in ['1','01 ,02  ,03 ,04']:
 		method.append('mobile')
 	elif hc in ['9','09']:
 		method.append('mbasic')
