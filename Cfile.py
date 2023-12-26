@@ -187,7 +187,7 @@ while attemps < 12345677901:
     username = input(' \033[0;92mEnter Username: ')
     password = input(' \033[0;93mEnter Password: ')
 
-    if username == 'user' and password == 'PATHU12':
+    if username == 'P' and password == 'P':
         print(' \033[0;92mYou Have Successfully Logged in.')
         break
     else:
@@ -450,8 +450,8 @@ def passwrd():
 	banner()
 	print(f"\033[97;1m[\033[92;1m+\033[97;1m]\033[1;92m USER\033[1;91m :\033[1;96m "+NameX)
 	print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mTOTAL IDz :\033[0;97m '+str(len(id)))
-	print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mTOOL - RANDOM × ")
-	print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mTOOL -WORK -SL")
+	print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mTOOL - FILE ONLY 🤟M × ")
+	print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mTOOL -WORK -SL & ALL CONTRYS ")
 	PATHUj(f'\033[0;97m╔════════════════════════════════════╗')
 	
 						
